@@ -1,0 +1,116 @@
+/* navbar */
+
+.navbar {
+  background-color: #000000;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.navbar-logo img {
+  width: 50px; /* Adjust size as needed */
+  height: auto;
+}
+
+.navbar-links {
+  list-style-type: none;
+  display: flex;
+}
+
+.navbar-links li {
+  margin-right: 20px;
+}
+
+.navbar-links li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar-links li a:hover {
+  color: #ffcc00;
+}
+
+/* footer */
+
+.footer {
+  background-color: #000000;
+  color: #fff;
+  padding: 30px 0;
+  text-align: center;
+}
+
+.footer h5 {
+  color: #fff;
+}
+
+.footer p {
+  margin-bottom: 10px;
+}
+
+.social-icons li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.social-icons li a {
+  color: #fff;
+  font-size: 20px;
+}
+
+.footer-bottom {
+  background-color: #ffffff;
+  color: #000000;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.footer-bottom p {
+  margin: 0;
+}
+
+/* property cards */
+
+.property-card {
+  display: inline-block;
+  width: calc(33.33% - 20px); /* Adjust width as per your requirement */
+  margin: 10px;
+  vertical-align: top;
+  box-sizing: border-box;
+}
+
+.property-card img {
+  width: 100%;
+  height: auto;
+}
+
+.property-card-content {
+  padding: 10px;
+  background-color: #f0f0f0;
+}
+
+.property-card-title {
+  margin: 0;
+}
+
+.property-card-info {
+  margin-top: 10px;
+}
+
+.property-card-info-item {
+  margin: 0;
+}
+
+.property-card-link {
+  display: block;
+  text-align: center;
+  background-color: #007bff;
+  color: white;
+  padding: 5px 10px;
+  text-decoration: none;
+}
+
+.property-card-link:hover {
+  background-color: #0056b3;
+}
